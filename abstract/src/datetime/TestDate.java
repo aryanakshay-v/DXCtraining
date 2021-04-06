@@ -4,11 +4,14 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Period;
+import java.time.Year;
 
 public class TestDate {
 	public static void main(String[] args) {
+		Year year = year.of(1996);
+		if(year.isLeap())
 		
-		LocalDate today = LocalDate.now();
+		/*LocalDate today = LocalDate.now();
 		LocalDate dob = LocalDate.of(1999, 10, 20);
 		Period period = Period.between(dob,  today);
 		LocalDate lastday = dob.plusYears(10);
@@ -16,7 +19,7 @@ public class TestDate {
 		System.out.printf("no of years = %d, no of months =%d,no of days = %d\n", period.getYears(),period.getMonths(),period.getDays());
 		System.out.printf("no of years leftt = %d, no of months left =%d,no of days left = %d\n", periodLeft.getYears(),period.getMonths(),period.getDays());
 		
-		/*LocalDate localdate = LocalDate.now();
+		LocalDate localdate = LocalDate.now();
 		LocalDateTime localDateTime = LocalDateTime.now();
 		LocalTime localTime = LocalTime.now();
 		int day= localdate.getDayOfMonth();
