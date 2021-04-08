@@ -16,7 +16,8 @@ public class TestEmployee {
 		System.out.println(al);
 		
 		Comparator<Employee> c = (e1,e2) -> (e1.id < e2.id)? -1 :(e1.id > e2.id)? 1 :0;
-		Collections.sort(al,c);
+		Comparator<Employee> n = (e1,e2) -> (e1.name.compareTo( e2.name));
+		Collections.sort(al,n);
 		
 		System.out.println(al);
 		
