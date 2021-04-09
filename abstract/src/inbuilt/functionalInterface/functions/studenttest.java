@@ -17,7 +17,7 @@ public class studenttest {
 		}
 		
 	}
-	private static void populateStudents() {
+	static ArrayList<JavaStudent> populateStudents() {
 		// TODO Auto-generated method stub
 		javastudents = new ArrayList<JavaStudent>();
 		javastudents.add(new JavaStudent("aryan", 50));
@@ -25,6 +25,7 @@ public class studenttest {
 		javastudents.add(new JavaStudent("verdu", 90));
 		javastudents.add(new JavaStudent("sanjay", 65));
 		javastudents.add(new JavaStudent("mani", 72));
+		return javastudents;
 		
 		
 		
