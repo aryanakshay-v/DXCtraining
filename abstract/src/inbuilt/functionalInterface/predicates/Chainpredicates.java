@@ -1,6 +1,5 @@
-package inbuilt.functionalInterface;
+package inbuilt.functionalInterface.predicates;
 
-import java.util.*;
 import java.util.function.Predicate;
 
 public class Chainpredicates {
