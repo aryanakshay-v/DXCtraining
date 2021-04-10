@@ -4,6 +4,7 @@ public class Student {
 	int m1;
 	int m2;
 	int m3;
+	public int age;
 	String name;
 	
 	public Student(String name,int m1, int m2, int m3)

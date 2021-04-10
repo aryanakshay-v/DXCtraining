@@ -19,7 +19,7 @@ public class studentpredicate {
 		students = new ArrayList<Student>();
 		
 		students.add(new Student("Akshay", 75, 60, 50));
-		students.add(new Student("ARyan",5, 60, 50));
+		students.add(new Student("Aryan",5, 60, 50));
 		students.add(new Student("Sanjay",7, 66, 54));
 		students.add(new Student("Bose",65, 90, 35));
 		
