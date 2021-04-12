@@ -12,8 +12,7 @@ public class ListNumbers {
 		al.add(12);
 		al.add(15);
 		System.out.println(al);
-		Comparator<Integer> c= (o1,o2)->(o1<o2)? -1 :(o1 > o2)? 1
-						:0; 
+		Comparator<Integer> c= (o1,o2)->(o1<o2)? -1 :(o1 > o2)? 1:0; 
 		Collections.sort(al,c);
 		System.out.println(al);
 		/*al.sort(Comparator.naturalOrder());

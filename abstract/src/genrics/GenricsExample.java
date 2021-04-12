@@ -16,7 +16,7 @@ public class GenricsExample {
 		studentsList.add("akshay");
 		//studentsList.add(new Integer(10));
 		List<String> students1 = new LinkedList<String>();
-		//students1.add = "rakesh";
+		//students1.add("subbu");
 		
 		System.out.println(studentsList);
 		
